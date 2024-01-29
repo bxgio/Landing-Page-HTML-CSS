@@ -1,0 +1,141 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8; /* Light gray background */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 10px; /* Add padding for better appearance */
+    text-align: center; /* Center align the content within the nav */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center align the flex container content */
+}
+
+li {
+    margin: 0;
+}
+
+.nav-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* Text color */
+    background-color: #4CAF50; /* Green background color */
+    /* Green border color */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+    margin: 0 10px; /* Add margin for even spacing between buttons */
+}
+
+.nav-button:hover {
+    background-color: #c0392b; /* Darker green on hover */
+}
+
+
+section {
+    padding: 20px;
+}
+
+.hero {
+    background-color: #3468b2; /* Blueish gray background */
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.features {
+    background-color: #0b0627; /* Dark green background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: flex-start; /* Align the items at the top */
+    flex-wrap: wrap; /* Allow the items to wrap to the next row */
+}
+
+.card {
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    flex: 0 0 calc(33.33% - 20px); /* Set a fixed width for each card */
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Add transitions for transform and box-shadow */
+
+}
+
+.card img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Make the image cover the entire space */
+    border-radius: 5px; /* Optional: add border-radius for rounded corners */
+}
+
+.card h3, .card p {
+    color: #ffffff; /* Dark gray text */
+}
+
+.cta {
+    background-color: #333; /* Blue background color */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 50px;
+}
+.card:hover {
+    transform: scale(1.05); /* Scale the card slightly on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow on hover */
+    border-color: #4CAF50; /* Change border color on hover */
+}
+.cta h2 {
+    margin-bottom: 20px; /* Add margin for better spacing */
+}
+
+.cta p {
+    font-size: 18px; /* Increase font size for better readability */
+    margin-bottom: 30px; /* Add more margin for better spacing */
+}
+
+button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px; /* Add padding for a larger button */
+    font-size: 16px; /* Set font size for the button */
+    font-weight: bold; /* Set font weight for better emphasis */
+    color: #fff; /* White text color */
+    background-color: #4CAF50; /* Red background color */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Add pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+footer {
+    background-color: #3468b2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
